@@ -19,8 +19,16 @@
     stored on the object.
 */
 
-//CODE HERE
+class Employee {
+    constructor(name, shifts){
+      this.name = Ian;
+      this.shifts = '4 to 12';
+    }
 
+    getSchedule(){
+      console.log(name + shifts);
+    }
+}
 
 
 /*
@@ -32,16 +40,24 @@
     name: Jess
     shifts: weekday mornings, weekday afternoons
 */
+class Employee {
+    constructor(name, shifts){
+      this.name = Ian;
+      this.shifts = '4 to 12';
+    }
 
-//CODE HERE
+    getSchedule(){
+      console.log(name + shifts);
+    }
+}
 
+let empOne = new Employee('Jess', 'weekday mornings, weekday afternoons')
 /*
     Call the `getSchedule` method on the
     `empOne` object.
 */
 
-//CODE HERE
-
+empOne.getSchedule()
 
 /*
     Make a copy of the empOne object
@@ -55,9 +71,12 @@
     dot or bracket notation.
 */
 
-//CODE HERE
-
-
+class Employee {
+    constructor(name, shifts){
+      this.name = Ian;
+      this.shifts = '4 to 12';
+    }
+    Employee.empTwo = 'Nick'; 
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -82,10 +101,13 @@
     the employees array. 
 */
 
-//CODE HERE
+class Employee {
+    constructor(name, shifts){
+      this.name = Ian;
+      this.shifts = '4 to 12';
+    }
 
-
-
+class Manager extends Employee 
 /*
     Create a new instance of your class.
     Save it to a variable called `manager`.
