@@ -33,8 +33,13 @@ const cart = [
     }
 ]
 
-//CODE HERE
 
+
+const summedPrice = cart.reduce((pizza, pasta, salad) => {
+    return pizza + pasta + salad;
+});
+
+console.log(`your order total is ${summedPrice}`);
 // const summedPrice = cart.reduce(/* CALLBACK HERE */)
 
 
@@ -53,7 +58,10 @@ const cart = [
     decimals, for example: .06 for a 6% tax.
 */
 
-//CODE HERE
+const calcFinalPrice = (cartTotal, couponValue, tax)
+{const tax = (.06)
+    return (tax - calcFinalPrice)
+}
 
 
 
@@ -78,8 +86,7 @@ const cart = [
 */
 
 /*
-    TEXT ANSWER HERE
-
+Cart page properties would include Card Number, First Name, Last Name, Zip Code, Order Total, Items,
 */
 
 /*
@@ -87,4 +94,13 @@ const cart = [
     guidelines.
 */
 
-//CODE HERE
+let customerObject = {
+    cardNumber: '1234567890',
+    firstName: 'Ian',
+    lastName: 'Durka',
+    zipCode: '85142',
+    orderTotal: '242.64',
+    items: 'Gold Plated Chicken'
+    
+
+}
