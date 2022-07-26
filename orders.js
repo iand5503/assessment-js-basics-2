@@ -68,4 +68,5 @@ let firstTicket = new Ticket(
     'cooking'
 */
 
-//CODE HERE
+let updateStatus = (firstTicket.element)
+console.log(updateStatus)

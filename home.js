@@ -54,8 +54,11 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 console.log(deliveryAreaZipCodes.includes('85205, 85204, 85203, 85213, 85206')
 return (`You're in our delivery zone!`)
 
-else(`Sorry, we can't deliver to that address`)
+else
+return(`Sorry, we can't deliver to that address`)
+
 )
+
 
 
 //.
@@ -75,7 +78,12 @@ else(`Sorry, we can't deliver to that address`)
 //    Name your new function `canWeDeliverTwo`.
 */
 
-// CODE HERE
+const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
+
+for (let i = 0; i <= 85205, 85204, 85203, 85213, 85206; i++) {
+    console.log(i)
+}
+
 
 
 //////////////////PROBLEM 3////////////////////
@@ -129,3 +137,6 @@ console.log(nowTen)
 */
 
 const nowApril = deals.replace('March', 'April')
+let trimApril = nowApril.trim()
+
+console.log(trimApril)

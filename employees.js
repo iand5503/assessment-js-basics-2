@@ -108,6 +108,10 @@ class Employee {
     }
 
 class Manager extends Employee 
+constructor(name, color, trainingLevel) {
+    super(name, color)
+
+    this.trainingLevel = trainingLevel
 /*
     Create a new instance of your class.
     Save it to a variable called `manager`.
@@ -119,7 +123,7 @@ class Manager extends Employee
     employees: Cece and Schmidt
 */
 
-//CODE HERE
+let manager = new Employee('Winston', ' weekday mornings, weekday afternoons', 'Cece and Schmidt');
 
 
 /*
@@ -127,20 +131,20 @@ class Manager extends Employee
     `manager` object.  
 */
 
-//CODE HERE
-
+{
+get manager()
+}
 /*
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
     'Coach' or whatever name you'd like.
 */
 
-//CODE HERE 
-
+manager.add(Coach)
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
     that an employee was added.
 */
 
-//CODE HERE
+get Employee()

@@ -30,8 +30,15 @@
     'kids'
 */
 
-//CODE HERE
+const pizza = {
+    name: 'Superstition Pizza',
+    price: '10.69',
+    category: 'Entree',
+    popularity: '93',
+    rating: '8.7',
+    tags: 'white sauce, twelve inch, thicc boi',
 
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -42,9 +49,16 @@
     Use dot notation to access the value.
 */
 
-//CODE HERE
+const pizza = {
+    name: 'Superstition Pizza',
+    price: '10.69',
+    category: 'Entree',
+    popularity: '93',
+    rating: '8.7',
+    tags: 'white sauce, twelve inch, thicc boi',
 
-
+}
+console.log(pizza.popularity)
 /*
     Second, log the second tag in your pizza's
     tags array.
@@ -52,8 +66,8 @@
     get the value.
 */
 
-//CODE HERE
-
+const {price: pizzaPrice} = pizza
+console.log(pizzaPrice)
 
 /*
     Third, destructure the price off of the
@@ -62,7 +76,7 @@
     Print the value of your new price variable.
 */
 
-//CODE HERE
+let {price} = pizza
 
 
 /*
@@ -72,8 +86,7 @@
     Print the value of your category variable. 
 */
 
-//CODE HERE
-
+let {category} = pizza
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -87,7 +100,7 @@
     data in some functions that you'll write.
 */
 
-//CODE HERE
+let foodArr = [name, price, category, popularity, rating];
 
 
 
@@ -103,7 +116,7 @@
     your food objects has.
 */
 
-//CODE HERE
+const filteredFood = foodArr.filter(price)
 
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
@@ -148,8 +161,12 @@
     Return the filtered array from the entire function
 */
 
-//CODE HERE
+const filterByProperty = {
+    property: 'house',
+    number: '10',
+    type: 'big',;
 
+}
 
 /*
     Invoke the `filterByProperty` function passing
@@ -158,4 +175,4 @@
     You'll have to console.log to see the filtered array
 */
 
-//CODE HERE
+console.log(filterByProperty)
