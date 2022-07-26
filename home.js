@@ -21,8 +21,10 @@
     'Welcome back, Andrew'
 */
 
-//CODE HERE
-
+const greetUser = username => {
+    let username = (Andrew);
+    return ('welcome back, ${username}')
+}
 
 
 
@@ -49,25 +51,26 @@
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-//CODE HERE
+if (this.deliveryAreaZipCodes = 85205) {
+    return 'Youre in our delivery zone!';
 
+if (this.deliveryAreaZipCodes = 85204) {
+        return 'Youre in our delivery zone!';
+//.
+   // Problem 2 Continued
+//
+  //  Now you're going to rewrite your function.
 
+    //If you wrote `canWeDeliver` using a loop of
+//    some kind, write a new function (`canWeDeliverTwo`)
+//    below, using the `includes` array method. 
+//    Look it up on MDN if you're not sure how to use 
+//    it. 
 
-/* 
-    Problem 2 Continued
-
-    Now you're going to rewrite your function.
-
-    If you wrote `canWeDeliver` using a loop of
-    some kind, write a new function (`canWeDeliverTwo`)
-    below, using the `includes` array method. 
-    Look it up on MDN if you're not sure how to use 
-    it. 
-
-    If you already used the `includes` method, 
-    write a new function using some sort of 
-    loop (for loop, higher order array method).
-    Name your new function `canWeDeliverTwo`.
+//    If you already used the `includes` method, 
+//    write a new function using some sort of 
+//    loop (for loop, higher order array method).
+//    Name your new function `canWeDeliverTwo`.
 */
 
 // CODE HERE
