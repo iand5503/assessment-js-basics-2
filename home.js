@@ -25,7 +25,7 @@ const greetUser = username => {
     let username = (Andrew);
     return ('welcome back, ${username}')
 }
-
+console.log(greetUser)
 
 
 
@@ -51,11 +51,13 @@ const greetUser = username => {
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-if (this.deliveryAreaZipCodes = 85205) {
-    return 'Youre in our delivery zone!';
+console.log(deliveryAreaZipCodes.includes('85205, 85204, 85203, 85213, 85206')
+return (`You're in our delivery zone!`)
 
-if (this.deliveryAreaZipCodes = 85204) {
-        return 'Youre in our delivery zone!';
+else(`Sorry, we can't deliver to that address`)
+)
+
+
 //.
    // Problem 2 Continued
 //
@@ -109,8 +111,8 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-//CODE HERE
-
+const nowTen = deals.replace('5', '0')
+console.log(nowTen)
 
 
 /*
@@ -126,4 +128,4 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+const nowApril = deals.replace('March', 'April')
